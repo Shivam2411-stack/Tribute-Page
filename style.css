@@ -391,3 +391,158 @@ footer a:hover {
     width: 30px;
     margin: 0 5px;
 }
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .flag-gradient-text {
+        font-size: 20px; /* Smaller text for the gradient header */
+    }
+
+    header h1 {
+        font-size: 14px; /* Reduced font size for the header */
+    }
+
+    #introduction,
+    #early-life,
+    #presidency,
+    #awards,
+    #legacy {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 0;  /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+        height: auto; /* Allow sections to expand naturally */
+    }
+
+    #right,
+    #left1,
+    #right2,
+    #left3,
+    #right4 {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    #right img,
+    #left1 img,
+    #right2 img,
+    #left3 img,
+    #right4 img {
+        width: 85%; /* Reduce image width */
+        height: auto;
+        margin: 0 auto; /* Center images */
+    }
+
+    #left,
+    #right1,
+    #left2,
+    #right3,
+    #left4 {
+        width: 100%; /* Make divs take full width */
+        padding: 10px;
+        margin: 15px 0;
+        box-shadow: none; /* Remove box shadow for a cleaner look */
+    }
+
+    #left h2,
+    #right1 h2,
+    #left2 h2,
+    #right3 h2,
+    #left4 h2 {
+        font-size: 18px; /* Reduced font size for section headers */
+    }
+
+    #left p,
+    #right1 p,
+    #left2 p,
+    #right3 p,
+    #left4 p {
+        font-size: 12px; /* Smaller font size for paragraph text */
+        line-height: 1.4;
+    }
+
+    .tribute-section {
+        width: 100%; /* Take full width */
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;  /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .tribute-section h2 {
+        font-size: 20px; /* Reduced font size for the tribute section title */
+    }
+
+    .tribute-section p {
+        font-size: 12px; /* Smaller font size for tribute section paragraphs */
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer a {
+        font-size: 12px; /* Smaller font size for footer links */
+    }
+
+    .social-icons img {
+        width: 20px;
+    }
+
+    /* Remove hover effects */
+    #right img,
+    #left1 img,
+    #right2 img,
+    #left3 img,
+    #right4 img {
+        transition: none;
+    }
+
+    #left,
+    #right1,
+    #left2,
+    #right3,
+    #left4 {
+        transition: none;
+        padding: 10px;  /* Consistent padding for divs */
+        margin: 15px 0; /* Consistent margins */
+        background-color: rgba(241, 241, 241, 0.888); /* Maintain background color */
+        box-shadow: none; /* Remove hover-related shadow */
+    }
+
+    /* Remove hover effects on information divs */
+    #left:hover,
+    #right1:hover,
+    #left2:hover,
+    #right3:hover,
+    #left4:hover {
+        padding: 10px; /* Maintain consistent padding */
+    }
+}
+* {
+    box-sizing: border-box;
+}
+#introduction, #early-life, #presidency, #awards, #legacy {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    #introduction,
+    #early-life,
+    #presidency,
+    #awards,
+    #legacy {
+        flex-direction: column;
+        padding: 0;
+    }
+}
