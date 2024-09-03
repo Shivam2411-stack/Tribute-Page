@@ -391,7 +391,7 @@ footer a:hover {
     width: 30px;
     margin: 0 5px;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     header {
         flex-direction: column;
         height: auto;
@@ -536,7 +536,7 @@ footer a:hover {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     #introduction,
     #early-life,
     #presidency,
